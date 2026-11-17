@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Story_Mode_Plots>
+	<Active_Plot>Conquests\Diplomacy_Rebellion_Tactical.xml</Active_Plot>
+
+	<Active_Plot>Conquests\Tactical\Story_Tactical_Universal_Land.xml</Active_Plot>
+</Story_Mode_Plots>

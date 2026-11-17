@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<Story>
+	<Event Name="Diplomacy_Rebellion_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Diplomacy_Rebellion_Independent_AI">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Independent_Forces</Reward_Param1>
+		<Reward_Param2>AI_Player_UnderworldStoryOpponent</Reward_Param2>
+		<Prereq>Diplomacy_Rebellion_Begin</Prereq>
+	</Event>
+
+	<Event Name="Diplomacy_Rebellion_Text_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_DIPLOMACY_REBELLION_START</Reward_Param1>
+		<Reward_Param2>20</Reward_Param2>
+		<Prereq>Diplomacy_Rebellion_Begin</Prereq>
+	</Event>
+</Story>
