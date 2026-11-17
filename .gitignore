@@ -1,0 +1,4 @@
+engine/build/
+*.exe
+*.dll
+*.o
