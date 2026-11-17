@@ -1,0 +1,10 @@
+{
+  "name": "Statecraft (Diplomacy, Espionage, Faction Reworks) [Submod TR 3.51]",
+  "summary": "Diplomacy, espionage and faction reworks for Thrawn's Revenge.",
+  "dependencies": [
+    {
+      "modtype": 1,
+      "identifier": "1125571106"
+    }
+  ]
+}
