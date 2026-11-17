@@ -1,0 +1,60 @@
+local W = {}
+
+W.LORE = {
+    KORRIBAN = "The Sith homeworld. The Valley of the Dark Lords holds the tombs of a hundred Sith masters, and the dark side pools in them like water in a cistern.",
+    OSSUS = "The Jedi's great library world for thousands of years, until the Cron Supernova scoured it. Ten thousand years of study left the Force deep in its stones, and in the Neti who guard them.",
+    MALACHOR = "Malachor V, where the Mass Shadow Generator ended the Mandalorian Wars and killed thousands in an instant. The slaughter left a wound in the Force; Darth Traya's academy grew in it.",
+    DAGOBAH = "A swamp world teeming with life, and so with the Force. Yoda hid there in exile because the dark cave beneath the great tree masked his presence from the Emperor.",
+    DROMUND = "Dromund Kaas, throne world of the Sith Emperor, wrapped in storms called up by the dark side and soaked in centuries of his rule.",
+    BYSS = "The Emperor's throne world in the Deep Core. Palpatine fed on the life of its people through the Force, and the dark side there is as thick as the air.",
+    ZIOST = "The old capital of the Sith Empire, its forests dead and its cities empty since the Emperor devoured every living thing on it.",
+    DATHOMIR = "A prison world whose women learned to use the Force from the exiled Jedi Allya. Its clans call it magic; the Nightsisters among them turned it dark.",
+    ILUM = "The frozen world of the crystal caves, where for millennia Jedi younglings went to find the heart of their first lightsaber.",
+    RUUSAN = "The last battlefield of the New Sith Wars. Lord Kaan's thought bomb trapped the spirits of the Brotherhood of Darkness and the Army of Light alike, and they have never quite left.",
+    RAKATA = "Lehon, the Rakatan homeworld, where the Infinite Empire drew its weapons from the Force; the Star Forge was built above it.",
+    YAVIN = "Yavin 4's Massassi temples were raised for Naga Sadow and Exar Kun, and Kun bound his spirit to them. Luke Skywalker founded his academy in the greatest of them.",
+    AMBRIA = "A desert world blighted by an ancient battle; Master Thon drove its dark side into Lake Natth and held it there, and it waits in the water still.",
+    MIMBAN = "The swamp world of the Kaiburr crystal, worshipped in the temple of Pomojema; the crystal's power seeps into everything around it.",
+    DANTOOINE = "A quiet farming world where the Jedi kept an enclave in the Old Republic, beside Rakatan ruins far older. The Force there is gentle and deep.",
+    VJUN = "A storm-wracked world whose nobility went mad a generation before the Empire; Darth Vader built Bast Castle there, and the madness never lifted.",
+    NAM_CHORIOS = "A stony world of living crystals and the Theran Listeners who hear them; the Force answers here in strange ways.",
+    DXUN = "Onderon's jungle moon, where Freedon Nadd's sarcophagus was hidden and the Mandalorians later made camp; Nadd's spirit lingered in the tomb.",
+    ZAKUUL = "Throne world of the Eternal Empire, ruled for a thousand years by an immortal emperor who was not what he seemed.",
+    BELSAVIS = "A glaciated world whose volcanic rift hid Jedi children from the Purge; older still, the Rakata kept a prison under its ice.",
+    WAYLAND = "Mount Tantiss held the Emperor's storehouse, guarded by the mad clone Joruus C'baoth, who ruled the people below by the dark side.",
+    BPFASSH = "The world of the Dark Jedi of Bpfassh, who turned in the Clone Wars and left a stain on the Sluis sector.",
+    ALMANIA = "Where the Dark Jedi Kueller rose, and murdered his own world's people to make his point. The dark side has not forgotten.",
+    FELUCIA = "A fungal jungle world alive with the Force, read by Felucia's shamans in its spores and colours.",
+    RHEN_VAR = "A frozen world where Ulic Qel-Droma spent his last years in exile and died redeemed; the place remembers him.",
+    MUSTAFAR = "A volcanic world where Obi-Wan Kenobi fought his fallen apprentice, and Darth Vader was born in fire.",
+    CORUSCANT = "The Republic's capital, and the seat of the Jedi Temple for a thousand generations; the Purge stained what the Temple built.",
+    ONDERON = "A jungle world whose kings fell under Freedon Nadd's Sith teaching, and whose beast wars drew in Ulic Qel-Droma.",
+    TELOS = "A world burned in the Jedi Civil War and slowly restored; Atris kept her Jedi academy at its pole, and Darth Nihilus fell above it.",
+    IEGO = "A world of a thousand moons whose spacers tell of angels; the Force is strong there, and quiet.",
+    ITHOR = "The Ithorians' world, whose sacred Mother Jungle no Ithorian may enter; life and the Force grow wild there together.",
+    NELVAAN = "A frozen world whose shamans set a young Anakin Skywalker a vision quest in the Clone Wars, and showed him what he might become.",
+    MANAAN = "An ocean world of the Selkath, with an ancient Rakatan mind in the depths of the Hrakert Rift.",
+    MON_CALAMARI = "The Mon Calamari's ocean world, home of the healer Cilghal; its people dream more vividly than most.",
+    KASHYYYK = "The Wookiees' forest world; in its Shadowlands below the great trees, the Force is old and wild.",
+    ENDOR = "A forest moon where the Empire fell; Luke Skywalker burned his father's armour on a pyre there.",
+    TATOOINE = "A desert world on the edge of everything, where the Skywalkers were born and Obi-Wan Kenobi kept his long watch.",
+    RYLOTH = "The Twi'leks' world; the Order found many Twi'lek Jedi there before the Purge.",
+    CORELLIA = "Corellia kept its own Jedi tradition, the Corellian Jedi, who married and passed the gift down families such as the Halcyons.",
+    CATHAR = "The Cathar's world, all but destroyed by the Mandalorians; Cathar Jedi such as Juhani came from its survivors.",
+    NABOO = "A gentle world of lakes and plains, with the Gungans' sacred places, and the birthplace of Palpatine.",
+    CHANDRILA = "A pastoral world of grasslands and lakes; its people's calm runs deep, and so does the Force.",
+    MYRKR = "The forests of the ysalamiri, little tree-lizards that push the Force away; whole woods of them leave a bubble where the Force is gone.",
+    CEREA = "The Cereans' world, home of Ki-Adi-Mundi; its people live long, and see further than most.",
+}
+
+W.GENERIC = {
+    {40, "The Force is strong here, though no story the Order knows explains it."},
+    {25, "The Force stirs here: a world where the gifted are born more often than most."},
+    {10, "The Force is present here as on any living world, no stronger and no weaker."},
+    {1, "The Force is faint here: a hard world, or a thinly peopled one."},
+    {0, "The Force is all but absent here: little lives here to feel it."},
+}
+W.DARK = " Something dark lingers in it."
+W.LIGHT = " The light holds it."
+
+return W

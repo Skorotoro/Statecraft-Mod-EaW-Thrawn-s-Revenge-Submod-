@@ -1,0 +1,17 @@
+return {
+    rows = 12,
+    actions = 12,
+    items = 5,
+    picks = 9,
+    emblems = 9,
+    emblems_vassal = 9,
+    stats = 5,
+    speech_lines = 6,
+    speech_fade = {100, 80, 60, 40, 20},
+    scroll_x = 244,
+    scroll_top = 190.5,
+    scroll_seg = 4,
+    scroll_segs = 93,
+    ops_rows = 22,
+    req_rows = 4,
+}
